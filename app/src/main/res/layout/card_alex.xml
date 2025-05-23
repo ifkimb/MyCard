@@ -11,7 +11,7 @@
 
 
         <LinearLayout
-            android:id="@+id/linearMartin"
+            android:id="@+id/linearAlex"
             android:layout_width="190dp"
             android:layout_height="match_parent"
             android:layout_marginStart="10dp"
@@ -20,7 +20,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Martin"
+                android:text="Alex"
                 android:textSize="40sp"
                 android:textStyle="bold" />
 
@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
-                android:text="1 Anos e 8 Meses"
+                android:text="4 Meses"
                 android:textSize="20sp"
                 android:textStyle="italic" />
 
@@ -38,19 +38,19 @@
                 android:layout_marginStart="5sp"
                 android:layout_marginTop="10sp"
                 android:layout_marginEnd="10sp"
-                android:text="Olá! Sou o Martin, um persa de cara fechada, mas coração quentinho. Posso parecer ranzinza, mas sou puro amor!"
+                android:text="Oi! Sou o Alex, um golden retriever cheio de amor. Sempre pronto pra uma brincadeira, vou encher seu coração de alegria!"
                 android:textSize="15sp"
                 android:textStyle="normal" />
 
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/imgMartin"
+            android:id="@+id/imgAlex"
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_alignParentRight="true"
             android:scaleType="centerCrop"
-            android:src="@drawable/martin" />
+            android:src="@drawable/alex" />
 
     </RelativeLayout>
 

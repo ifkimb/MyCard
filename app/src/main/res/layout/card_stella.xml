@@ -11,7 +11,7 @@
 
 
         <LinearLayout
-            android:id="@+id/linearFred"
+            android:id="@+id/linearStella"
             android:layout_width="190dp"
             android:layout_height="match_parent"
             android:layout_marginStart="10dp"
@@ -20,7 +20,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Fred"
+                android:text="Stella"
                 android:textSize="40sp"
                 android:textStyle="bold" />
 
@@ -28,28 +28,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
-                android:text="2 Anos"
+                android:text="2 Anos e 6 Meses"
                 android:textSize="20sp"
                 android:textStyle="italic" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="5dp"
+                android:layout_marginStart="5sp"
                 android:layout_marginTop="10sp"
-                android:text="Oi! Sou um Border Collie, me chamo Fred e tenho 2 anos, sou carinhoso, esperto e cheio de amor pra dar!"
+                android:layout_marginEnd="10sp"
+                android:text="Oi! Sou a Stella, uma pug fofinha e carinhosa, pronta pra te seguir por aí com meu rabinho enrolado!"
                 android:textSize="15sp"
                 android:textStyle="normal" />
 
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/imgFred"
+            android:id="@+id/imgStella"
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_alignParentRight="true"
             android:scaleType="centerCrop"
-            android:src="@drawable/fred" />
+            android:src="@drawable/stella" />
 
     </RelativeLayout>
 
